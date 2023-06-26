@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Escuela ProA Oncativo</title>
+</head>
+
+<body>
+  <!--NavBar-->
+  <div class="container-fluid" style="background-color: #0099ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" class="iconito" alt="Bootstrap" width="50px" height="50px">
+          </a>
+        </div>
+        <div class="col-md-9">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="horarios.html">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="preinscripciones.html">Pre Inscripciones</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gestionalumnos.html">Gestion alumnos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gestionprofes.html">Gestion profesores</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--NavBar-->
+
+  <div class="container horarios">
+    <h2 style="margin-top: 10px;"><img src="img/horarios.svg" class="iconito" alt="" width="50px" style="margin: 0 10px;"> Horarios</h2>
+    <div class="accordion" id="accordionExample">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Primer Año
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-bordered border-dark">
+              <thead>
+                  <tr>
+                      <th class="cold-2 table-primary">Lunes</th>
+                      <th class="cold-2 table-primary">Martes</th>
+                      <th class="cold-2 table-primary">Miercoles</th>
+                      <th class="cold-2 table-primary">Jueves</th>
+                      <th class="cold-2 table-primary">Viernes</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">7:30 a 8:10<br>Tutoria Matematicas</th>
+                      <th class="cold-1 table-primary">7:30 a 8:10<br>Tutoria Lengua</th>
+                      <th class="cold-1 table-primary"><br></th>
+                      <th class="cold-1 table-primary">7:30 a 8:10<br>Tutoria Biologia</th>
+                      <th class="cold-1 table-primary">7:30 a 8:10<br>Tutoria Geografia</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <td colspan="12" class="table-active table-success">INGRESO Y DESAYUNO - 8:10 a 8:30</td>
+              </tbody>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">8:30 a 9:10<br>Matematicas<br>Aula 1</th>
+                      <th class="cold-1 table-primary">8:30 a 9:10<br>Lengua<br>Aula 1</th>
+                      <th class="cold-1 table-primary">8:30 a 9:10<br>Matematicas<br>Aula 1</th>
+                      <th class="cold-1 table-primary">8:30 a 9:10<br>Biologia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">8:30 a 9:10<br>Geografia<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">9:10 a 9:50<br>Matematicas<br>Aula 1</th>
+                      <th class="cold-1 table-primary">9:10 a 9:50<br>Lengua<br>Aula 1</th>
+                      <th class="cold-1 table-primary">9:10 a 9:50<br>Matematicas<br>Aula 1</th>
+                      <th class="cold-1 table-primary">9:10 a 9:50<br>Biologia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">9:10 a 9:50<br>Geografia<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <td colspan="12wq" class="table-active table-success">RECREO - 9:50 a 10:00</td>
+              </tbody>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">10:00 a 10:40<br>Ingles<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:00 a 10:40<br>Geografia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:00 a 10:40<br>Matematicas<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:00 a 10:40<br>Biologia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:00 a 10:40<br>Fisica<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">10:40 a 11:20<br>Ingles<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:40 a 11:20<br>Geografia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:40 a 11:20<br>Ingles<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:40 a 11:20<br>Lengua<br>Aula 1</th>
+                      <th class="cold-1 table-primary">10:40 a 11:20<br>Fisica<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <td colspan="12wq" class="table-active table-success">RECREO - 11:20 a 11:30</td>
+              </tbody>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">11:30 a 12:10<br>Club ciencias<br>Aula 1</th>
+                      <th class="cold-1 table-primary">11:30 a 12:10<br>Geografia<br>Aula 1</th>
+                      <th class="cold-1 table-primary">11:30 a 12:10<br>Ciudadania y participacion<br>Aula 1</th>
+                      <th class="cold-1 table-primary">11:30 a 12:10<br>Lengua y literatura<br>Aula 1</th>
+                      <th class="cold-1 table-primary">11:30 a 12:10<br>Ciudadanía y participacion<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">12:10 a 12:50<br>Club ciencias<br>Aula 1</th>
+                      <th class="cold-1 table-primary">12:10 a 12:50<br>Ciudadania y participacion<br>Aula 1</th>
+                      <th class="cold-1 table-primary">12:10 a 12:50<br>Educacion artistica musica<br>Aula 1</th>
+                      <th class="cold-1 table-primary">12:10 a 12:50<br>Lengua y literatura<br>Aula 1</th>
+                      <th class="cold-1 table-primary">12:10 a 12:50<br>Ciudadanía y participacion<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <td colspan="12wq" class="table-active table-success">ALMUERZO - 12:50 a 13:10</td>
+              </tbody>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">13:10 a 14:10<br>Educacion fisica<br>-</th>
+                      <th class="cold-1 table-primary">13:10 a 13:50<br>Educacion tecnologica<br>Aula 1</th>
+                      <th class="cold-1 table-primary">13:10 a 13:50<br>Club arte<br>Taller</th>
+                      <th class="cold-1 table-primary">13:10 a 13:50<br>Educacion artistica musica<br>Aula 1</th>
+                      <th class="cold-1 table-primary">13:10 a 13:50<br>Educacion tecnologica<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <thead>
+                <th class="cold-1 table-primary">14:10 a 14:20 Recreo</th>
+                <th class="cold-1 table-primary">-</th>
+                <th class="cold-1 table-primary">-</th>
+                <th class="cold-1 table-primary">-</th>
+                <th class="cold-1 table-primary">-</th>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">14:20 a 15:00<br>TIA<br>Aula 1</th>
+                      <th class="cold-1 table-primary">13:50 a 14:30<br>Educacion tecnologica<br>Aula 1</th>
+                      <th class="cold-1 table-primary">13:50 a 14:30<br>Club arte<br>Taller 1</th>
+                      <th class="cold-1 table-primary">13:50 a 14:30<br>Educacion artistica musica<br>Aula 1</th>
+                      <th class="cold-1 table-primary">13:50 a 14:30<br>Educacion tecnologica<br>Aula 1</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <td colspan="12wq" class="table-active table-success">RECREO - 14:30 a 14:40</td>
+              </tbody>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">15:00 a 15:40<br>TIA<br>Aula 1</th>
+                      <th class="cold-1 table-primary">14:40 a 15:20<br>Tutoria de fisica<br>-</th>
+                      <th class="cold-1 table-primary">14:40 a 15:20<br>Entornos digitales<br>Taller Informatica</th>
+                      <th class="cold-1 table-primary">14:40 a 15:20<br>Sistemas operativos<br>Taller Informatica</th>
+                      <th class="cold-1 table-primary">14:40 a 15:20<br>Club de deportes<br>-</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary">15:40 a 16:20<br>Tutoria de ingles<br>-</th>
+                      <th class="cold-1 table-primary"><br></th>
+                      <th class="cold-1 table-primary">15:20 a 16:00<br>Entornos digitales<br>Taller Informatica</th>
+                      <th class="cold-1 table-primary">15:20 a 16:00<br>Sistemas operativos<br>Taller Informatica</th>
+                      <th class="cold-1 table-primary">15:20 a 16:00<br>Club de deportes<br>-</th>
+                  </tr>
+              </thead>
+              <thead>
+                  <tr>
+                      <th class="cold-1 table-primary"><br></th>
+                      <th class="cold-1 table-primary"><br></th>
+                      <th class="cold-1 table-primary"><br></th>
+                      <th class="cold-1 table-primary">16:10 a 17:10<br>Educacion fisica</th>
+                      <th class="cold-1 table-primary"><br></th>
+                  </tr>
+              </thead>
+          </table>
+        </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Segundo Año
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-bordered border-dark">
+              <thead>
+                  <tr>
+                      <th class="cold-2 table-danger">Lunes</th>
+                      <th class="cold-2 table-danger">Martes</th>
+                      <th class="cold-2 table-danger">Miercoles</th>
+                      <th class="cold-2 table-danger">Jueves</th>
+                      <th class="cold-2 table-danger">Viernes</th>
+                  </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">7:30 a 8:10 <br>Tutoria de Hisotria</th>
+                              <th class="cold-1 table-danger">7:30 a 8:10 <br>Tutoria de Biologia</th>
+                              <th class="cold-1 table-danger">7:30 a 8:10 <br>Tutoria de Lengua</th>
+                              <th class="cold-1 table-danger">7:30 a 8:10 <br>Tutoria de Quimica</th>
+                              <th class="cold-1 table-danger">7:30 a 8:10 <br>Tutoria de Matematicas</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">INGRESO Y DESAYUNO - 8:10 a 8:30</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">8:30 a 9:10 <br> Historia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">8:30 a 9:10 <br>Matematicas<br>Aula 2</th>
+                              <th class="cold-1 table-danger">8:30 a 9:10 <br>Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-danger">8:30 a 9:10 <br> Historia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">8:30 a 9:10 <br>Matematicas<br>Aula 2</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">9:10 a 9:50 <br> Historia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">9:10 a 9:50 <br>Matematicas<br>Aula 2</th>
+                              <th class="cold-1 table-danger">9:10 a 9:50 <br>Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-danger">9:10 a 9:50 <br> Historia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">9:10 a 9:50 <br>Matematicas<br>Aula 2</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 9:50 a 10:00</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">10:00 a 10:40 <br> Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-danger">10:00 a 10:40 <br> Ingles<br>Aula 1</th>
+                              <th class="cold-1 table-danger">10:00 a 10:40 <br> Club Deportes<br>-</th>
+                              <th class="cold-1 table-danger">10:00 a 10:40 <br> Historia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">10:00 a 10:40 <br> Ciudadania y part<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">10:40 a 11:20 <br> Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-danger">10:40 a 11:20 <br> Educ. Artistica<br>Taller</th>
+                              <th class="cold-1 table-danger">10:40 a 11:20 <br> Club Deportes<br>-</th>
+                              <th class="cold-1 table-danger">10:40 a 11:20 <br> Biologia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">10:40 a 11:20 <br> Ciudadania y part<br>-</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 11:20 a 11:30</td>
+                      </tbody> 
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Club Arte<br>Taller</th>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Quimica<br>Aula 2</th>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Biologia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Quimica<br>Aula 2</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Matematica<br>Aula 2</th>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Club Arte<br>Taller</th>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Ciudadanía y part.<br>Aula 2</th>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Biologia<br>Aula 2</th>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Quimica<br>Aula 2</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">ALMUERZO - 12:50 A 13:10</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-danger"> 13:10 a 13:50 <br>Educ. Tecnologica<br>Aula 2</th>
+                              <th class= "cold-1 table-danger"> 13:10 a 13:50 <br>Club Ciencias<br>Aula 2</th>
+                              <th class= "cold-1 table-danger"> 13:10 a 13:50 <br>Algo. y Prog<br>Taller de info</th>
+                              <th class= "cold-1 table-danger"> 13:10 a 13:50 <br>Estructura y Almacenamiento de datos<br>Taller Info</th>
+                              <th class= "cold-1 table-danger"> 13:10 a 14:10 <br>Educacion Fisica<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-danger"> 13:50 a 14:30<br> Educ. Tecnologica<br>Aula 2</th>
+                              <th class= "cold-1 table-danger"> 13:50 a 14:30<br> Club Ciencias<br>Aula 2</th>
+                              <th class= "cold-1 table-danger"> 13:50 a 14:30<br> Algo. y Prog<br>Taller de infor</th>
+                              <th class= "cold-1 table-danger"> 13:50 a 14:30<br> Estructura y Almacenamiento de datos<br>Taller Info</th>
+                              <th class= "cold-1 table-danger"> 14:10 a 14:20<br>Recreo<br>-</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">ALMUERZO - 14:30 A 14:40 Excepto los viernes</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-danger"><br> </th>
+                              <th class= "cold-1 table-danger">14:40 a 15:20<br>TIA<br>Aula 2</th>
+                              <th class= "cold-1 table-danger">14:40 a 15:20<br>Educ Tecnologica<br>Aula 2</th>
+                              <th class= "cold-1 table-danger">14:40 a 15:20<br>Educ Artis<br>Taller Arte</th>
+                              <th class= "cold-1 table-danger">14:20 a 15:00<br>Ingles<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-danger"><br> </th>
+                              <th class= "cold-1 table-danger">15:20 a 16:00<br>TIA<br>Aula 2</th>
+                              <th class= "cold-1 table-danger">15:20 a 16:00<br>Educ Tecnologica<br>Aula 2</th>
+                              <th class= "cold-1 table-danger">15:20 a 16:00<br>Educ Artis<br>Taller Arte</th>
+                              <th class= "cold-1 table-danger">15:00 a 15:40<br>Ingles<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-danger">16:00 A 16:10 RECREO</th>
+                              <th class= "cold-1 table-danger"><br> </th>
+                              <th class= "cold-1 table-danger"> <br> </th>
+                              <th class= "cold-1 table-danger"> <br> </th>
+                              <th class= "cold-1 table-danger">15:40 a 16:20<br>Tutoria Ingles</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <th class= "cold-1 table-danger">16:10 a 17:10<br>Educacion Fisica<br>-</th>
+                      </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Tercer Año
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-bordered border-dark">
+              <thead>
+                  <tr>
+                      <th class="cold-2 table-warning">Lunes</th>
+                      <th class="cold-2 table-warning">Martes</th>
+                      <th class="cold-2 table-warning">Miercoles</th>
+                      <th class="cold-2 table-warning">Jueves</th>
+                      <th class="cold-2 table-warning">Viernes</th>
+                  </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">7:30 a 8:10 <br>Tutoria de Lengua</th>
+                              <th class="cold-1 table-warning">7:30 a 8:10 <br>Tutoria de Matematica</th>
+                              <th class="cold-1 table-warning">7:30 a 8:10 <br>Tutoria de Ingles</th>
+                              <th class="cold-1 table-warning">7:30 a 8:10 <br>Tutoria de Geografia</th>
+                              <th class="cold-1 table-warning">7:30 a 8:10 <br>Tutoria de Historia</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">INGRESO Y DESAYUNO - 8:10 a 8:30</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">8:30 a 9:10 <br>Lengua y lit<br>-</th>
+                              <th class="cold-1 table-warning">8:30 a 9:10 <br>Geografia<br>Aula 3</th>
+                              <th class="cold-1 table-warning">8:30 a 9:10 <br>Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-warning">8:30 a 9:10 <br>Geografia<br>Aula 3</th>
+                              <th class="cold-1 table-warning">8:30 a 9:10 <br>Historia<br>Aula 3</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">9:10 a 9:50 <br> Lengua y lit<br>-</th>
+                              <th class="cold-1 table-warning">9:10 a 9:50 <br>Geografia<br>Aula 3</th>
+                              <th class="cold-1 table-warning">9:10 a 9:50 <br>Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-warning">9:10 a 9:50 <br> Geografia<br>Aula 3</th>
+                              <th class="cold-1 table-warning">9:10 a 9:50 <br>Historia<br>Aula 3</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 9:50 a 10:00</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">10:00 a 10:40 <br>Historia<br>Aula</th>
+                              <th class="cold-1 table-warning">10:00 a 10:40 <br> Matematicas<br>Aula 3</th>
+                              <th class="cold-1 table-warning">10:00 a 10:40 <br> Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-warning">10:00 a 10:40 <br> TIA<br>Aula 3</th>
+                              <th class="cold-1 table-warning">10:00 a 10:40 <br> Matematicas<br>Aula 3</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">10:40 a 11:20 <br> Historia<br>Aula</th>
+                              <th class="cold-1 table-warning">10:40 a 11:20 <br> Matematicas<br>Aula 3</th>
+                              <th class="cold-1 table-warning">10:40 a 11:20 <br> Lengua y lit<br>-</th>
+                              <th class="cold-1 table-warning">10:40 a 11:20 <br> TIA<br>Aula 3</th>
+                              <th class="cold-1 table-warning">10:40 a 11:20 <br> Matematicas<br>Aula 3</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 11:20 a 11:30</td>
+                      </tbody> 
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Estruc y Almacenamiento de datos<br>Taller de info</th>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Matematicas<br>Aula 3</th>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Lengua y lit<br>-</th>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Quimica<br>Aula 3</th>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Programacion 1<br>Taller Info</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Estruc y Almacenamiento de datos<br>Taller de info</th>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Fisica<br>Aula 3</th>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Lengua y lit<br></th>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Quimica<br>Aula 3</th>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Programacion 1<br>Taller Infor</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">ALMUERZO - 12:50 A 13:10</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>Educ artistica<br>Taller de arte</th>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>FVT<br>Aula 3</th>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>Club Artes<br>Taller De arte/Aula 3</th>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>FVT<br>Aula 3</th>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>Educacion Fisica<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-warning">15:20 a 16:00<br>Educ Tecnologica<br>Taller Arte</th>
+                              <th class= "cold-1 table-warning">15:20 a 16:00<br>FVT<br>Aula 3</th>
+                              <th class= "cold-1 table-warning">15:20 a 16:00<br>Club Artes<br>Taller De arte/Aula 3</th>
+                              <th class= "cold-1 table-warning">15:20 a 16:00<br>FVT<br>Aula 3</th>
+                              <th class= "cold-1 table-warning"> <br> </th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="8" class="table-active table-success">RECREO - 16:00 a 16:10</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning">16:10 a 16:50<br>Educ Tecnologica<br>Taller Arte</th>
+                              <th class="cold-1 table-warning">16:10 a 16:50<br>Quimica<br>Aula 3</th>
+                              <th class="cold-1 table-warning">16:10 a 17:10<br>Educ fisica<br>-</th>
+                              <th class="cold-1 table-warning">16:00 a 16:40<br>Tutoria Fisica<br>-</th>
+                              <th class="cold-1 table-warning"><br></th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-warning"><br></th>
+                              <th class="cold-1 table-warning">16:50 a 17:30<br>Tutoria Quimica</th>
+                              <th class="cold-1 table-warning"><br></th>
+                              <th class="cold-1 table-warning"><br></th>
+                              <th class="cold-1 table-warning"><br></th>
+                          </tr>
+                      </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Cuarto Año
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-bordered border-dark">
+              <thead>
+                  <tr>
+                      <th class="cold-2 table-info">Lunes</th>
+                      <th class="cold-2 table-info">Martes</th>
+                      <th class="cold-2 table-info">Miercoles</th>
+                      <th class="cold-2 table-info">Jueves</th>
+                      <th class="cold-2 table-info">Viernes</th>
+                  </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">7:30 a 8:10 <br></th>
+                              <th class="cold-1 table-info">7:30 a 8:10 <br>Tutoria de Geografia</th>
+                              <th class="cold-1 table-info">7:30 a 8:10 <br>Tutoria de Historia</th>
+                              <th class="cold-1 table-info">7:30 a 8:10 <br>Tutoria de Matematica</th>
+                              <th class="cold-1 table-info">7:30 a 8:10 <br>Tutoria de Lengua</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">INGRESO Y DESAYUNO - 8:10 a 8:30</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">8:30 a 9:10 <br>Ingles<br>Aula 4</th>
+                              <th class="cold-1 table-info">8:30 a 9:10 <br>Geografia<br>Aula 4</th>
+                              <th class="cold-1 table-info">8:30 a 9:10 <br>Historia<br>Aula 4</th>
+                              <th class="cold-1 table-info">8:30 a 9:10 <br>TIA<br>Aula 4</th>
+                              <th class="cold-1 table-info">8:30 a 9:10 <br>Lengua Y Lit<br>Taller de arte</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">9:10 a 9:50 <br>Ingles<br>Aula 4</th>
+                              <th class="cold-1 table-info">9:10 a 9:50 <br>Geografia<br>Aula 4</th>
+                              <th class="cold-1 table-info">9:10 a 9:50 <br>Historia<br>Aula 4</th>
+                              <th class="cold-1 table-info">9:10 a 9:50 <br>TIA<br>Aula 4</th>
+                              <th class="cold-1 table-info">9:10 a 9:50 <br>Lengua Y Lit<br>Taller de arte</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 9:50 a 10:00</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">10:00 a 10:40 <br>Matematicas<br>Aula 4</th>
+                              <th class="cold-1 table-info">10:00 a 10:40 <br>Lengua y Lit<br>Aula 4</th>
+                              <th class="cold-1 table-info">10:00 a 10:40 <br>Estruc y Almac De datos<br>Taller De info</th>
+                              <th class="cold-1 table-info">10:00 a 10:40 <br>Biologia<br>Aula 3</th>
+                              <th class="cold-1 table-info">10:00 a 10:40 <br>FVT<br>Taller de Informatiica</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">10:40 a 11:20 <br>Matematicas<br>Aula 4</th>
+                              <th class="cold-1 table-info">10:40 a 11:20 <br>Lengua y Lit<br>Aula 4</th>
+                              <th class="cold-1 table-info">10:40 a 11:20 <br>Estruc y Almac De datos<br>Taller De info</th>
+                              <th class="cold-1 table-info">10:40 a 11:20 <br>Biologia<br>Aula 3</th>
+                              <th class="cold-1 table-info">10:40 a 11:20 <br>Diseño de Interf y Usab<br>Taller de info</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 11:20 a 11:30</td>
+                      </tbody> 
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>Historia<br>Aula 4</th>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>Programacion II<br>Taller de info</th>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>Biologia<br>Aula 4</th>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>FVT<br>Taller De info</th>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>Matematicas<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>Diseño de Interf y Usabilidad<br>Taller Info</th>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>Programacion II<br>Taller de info</th>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>Biologia<br>Aula 4</th>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>FVT<br>Taller De info</th>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>Matematicas<br> Aula 4</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">ALMUERZO - 12:50 A 13:10</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-info">13:10 a 13:50 <br>Diseño de Interf y Usabilidad<br>-</th>
+                              <th class="cold-1 table-info">13:10 a 13:50 <br>Programacion II<br>Taller de Info</th>
+                              <th class="cold-1 table-info">13:10 a 13:50 <br>Club Ciencias<br>Aula 4</th>
+                              <th class="cold-1 table-info">13:10 a 13:50 <br>Geografia<br>Aula 2</th>
+                              <th class="cold-1 table-info">13:10 a 13:50 <br>Club de deportes<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-info">13:50 a 14:30<br>Educ artistica<br>Aula 4</th>
+                              <th class= "cold-1 table-info">13:50 a 14:30<br>Programacion II<br>Taller info</th>
+                              <th class= "cold-1 table-info">13:50 a 14:30<br>Club de ciencias<br>Aula 4</th>
+                              <th class= "cold-1 table-info">13:50 a 14:00<br>RECREO solo los jueves<br>-</th>
+                              <th class= "cold-1 table-info">13:50 a 14:30<br>Club de deportes<br>-</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success"> RECREO - 14:30 a 14:40</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-info">14:40 a 15:20<br>Estruc y Almac de datos<br>Taller de info</th>
+                              <th class= "cold-1 table-info">14:40 a 15:20<br>Club de artes<br>Taller de artes</th>
+                              <th class= "cold-1 table-info">14:40 a 15:20<br>Educ fisica<br>-</th>
+                              <th class= "cold-1 table-info">14:00 a 14:40<br>Ingles<br>Aula 2</th>
+                              <th class= "cold-1 table-info">14:40 a 15:20<br>Educa Artistica<br>Taller de artes</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-info">15:20 a 16:20<br>Educ Fisica<br>-</th>
+                              <th class= "cold-1 table-info">15:20 a 16:00<br>Club De Artes<br>Taller arte</th>
+                              <th class= "cold-1 table-info">15:20 a 16:20<br>Tutoria de biologia<br>-</th>
+                              <th class= "cold-1 table-info">14:40 a 15:20<br>Tutoria de ingles<br>-</th>
+                              <th class= "cold-1 table-info">15:20 a 16:00<br>Educ Artistica<br>Taller arte</th>
+                          </tr>
+                      </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Quinto Año
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <table class="table table-bordered border-dark">
+              <thead>
+                  <tr>
+                      <th class="cold-2 table-primary">Lunes</th>
+                      <th class="cold-2 table-danger">Martes</th>
+                      <th class="cold-2 table-warning">Miercoles</th>
+                      <th class="cold-2 table-info">Jueves</th>
+                      <th class="cold-2 table-light">Viernes</th>
+                  </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">7:30 a 8:10<br>Robotica<br>Taller de info</th>
+                              <th class="cold-1 table-danger">7:30 a 8:10<br>Educacion Artistica<br>Taller de arte</th>
+                              <th class="cold-1 table-warning">7:30 a 8:10<br>Geografia<br>Taller de arte</th>
+                              <th class="cold-1 table-info">7:30 a 8:10<br>FVT<br>Taller de info/arte</th>
+                              <th class="cold-1 table-light">7:30 a 8:10<br>Fisica<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        <td colspan="12" class="table-active table-success">INGRESO Y DESAYUNO - 8:10 a 8:30</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">8:30 a 9:10<br>Robotica<br>Taller de info</th>
+                              <th class="cold-1 table-danger">8:30 a 9:10<br>Educacion Artistica<br>Taller de arte</th>
+                              <th class="cold-1 table-warning">8:30 a 9:10<br>Geografia<br>Taller de arte</th>
+                              <th class="cold-1 table-info">8:30 a 9:10<br>FVT<br>Taller de info/arte</th>
+                              <th class="cold-1 table-light">8:30 a 9:10<br>Fisica<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">9:10 a 9:50<br>Robotica<br>Taller de info</th>
+                              <th class="cold-1 table-danger">9:10 a 9:50<br>Educ Artistica<br>Taller de arte</th>
+                              <th class="cold-1 table-warning">9:10 a 9:50<br>Geografia<br>Taller de arte</th>
+                              <th class="cold-1 table-info">9:10 a 9:50<br>Matematicas<br>Aula 2</th>
+                              <th class="cold-1 table-light">9:10 a 9:50<br>FVT<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 9:50 a 10:00</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">10:00 a 10:40<br>Club De Ciencias<br>Taller de arte</th>
+                              <th class="cold-1 table-danger">10:00 a 10:40<br>Programacion III<br>Taller de info</th>
+                              <th class="cold-1 table-warning">10:00 a 10:40<br>Club De Artes<br>Taller de Arte</th>
+                              <th class="cold-1 table-info">10:00 a 10:40<br>Matematicas<br>Aula 2</th>
+                              <th class="cold-1 table-light">10:00 a 10:40<br>Lengua Y Lit<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">10:40 a 11:20<br>Club De Ciencias<br>Taller de arte</th>
+                              <th class="cold-1 table-danger">10:40 a 11:20<br>Programacion III<br>Taller de info</th>
+                              <th class="cold-1 table-warning">10:40 a 11:20<br>Club De Artes<br>Taller de Arte</th>
+                              <th class="cold-1 table-info">10:40 a 11:20<br>Historia<br>Aula 2 - Taller arte</th>
+                              <th class="cold-1 table-light">10:40 a 11:20<br>Lengua y Lit<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12wq" class="table-active table-success">RECREO - 11:20 a 11:30</td>
+                      </tbody> 
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">11:30 a 12:10<br>Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-danger">11:30 a 12:10<br>Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-warning">11:30 a 12:10<br>Programacion III<br>Taller de info</th>
+                              <th class="cold-1 table-info">11:30 a 12:10<br>Historia<br>Aula 4</th>
+                              <th class="cold-1 table-light">11:30 a 12:10<br>Club de deportes<br>-</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">12:10 a 12:50<br>Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-danger">12:10 a 12:50<br>Lengua y Lit<br>Aula 2</th>
+                              <th class="cold-1 table-warning">12:10 a 12:50<br>Programacion III<br>Taller de Informatica</th>
+                              <th class="cold-1 table-info">12:10 a 12:50<br>Historia<br>Aula 4</th>
+                              <th class="cold-1 table-light">12:10 a 12:50<br>Club De deportes<br>-</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">ALMUERZO - 12:50 A 13:10</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class="cold-1 table-primary">13:10 a 13:50<br>Ingles<br>Aula 3</th>
+                              <th class="cold-1 table-danger">13:10 a 13:50<br>Matematicas<br>Aula 4</th>
+                              <th class="cold-1 table-warning">13:10 a 13:50<br>Psicologia<br>Aula 1</th>
+                              <th class="cold-1 table-info">13:10 a 14:10<br>Educacion Fisica<br>Aula 4</th>
+                              <th class="cold-1 table-light">13:10 a 13:50<br>Etica y Logistica<br>Aula 4</th>
+                          </tr>
+                      </thead>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-primary">13:50 a 14:30<br>Fisica<br>Aula 3</th>
+                              <th class= "cold-1 table-danger">13:50 a 14:30<br>Matematicas<br>Aula 4</th>
+                              <th class= "cold-1 table-warning">13:50 a 14:30<br>Psicologia<br>Aula 1</th>
+                              <th class= "cold-1 table-info">14:10 a 14:20<br>RECREO solo jueves</th>
+                              <th class= "cold-1 table-light">13:50 a 14:30<br>Etica y Logistica<br>-</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <td colspan="12" class="table-active table-success">RECREO - 14:30 a 14:40</td>
+                      </tbody>
+                      <thead>
+                          <tr>
+                              <th class= "cold-1 table-primary">14:40 a 15:20<br>Estructura y Almac. de datos<br>Taller de info</th>
+                              <th class= "cold-1 table-danger">14:40 a 15:20<br>Club de artes<br>Taller de artes</th>
+                              <th class= "cold-1 table-warning">14:40 a 15:20<br>Psicologia<br>Aula 1</th>
+                              <th class= "cold-1 table-info">14:20 a 15:50<br>TIA<br>Aula 4</th>
+                              <th class= "cold-1 table-light">14:40 a 15:20<br>Etica y Logistica<br>-</th>
+                          </tr>
+                      </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2023, Escuela ProA Oncativo</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex foo">
+      <li class="ms-3"><a class="text-muted" href="#"><img src="img/facebook.svg" width="30px"></a></li>
+      <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/escuela_proa_oncativo/" target="_blank"><img src="img/instagram.svg" width="30px"></a></li>
+    </ul>    
+  </footer>
+  <!--Footer-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

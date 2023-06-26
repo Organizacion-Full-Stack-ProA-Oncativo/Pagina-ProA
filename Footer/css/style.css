@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    align-items: center;
+    padding: 10px;
+    background-color: #00c3ff;
+    color: white;
+}
+
+.logo img {
+    display: block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1;
+    background-color: transparent;
+    color: white;
+}
+
+.search-container button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.relleno {
+    background: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+.footer {
+    background: #00c3ff;
+    padding: 20px;
+}
+
+.footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer h4 {
+    margin-top: 0;
+    color:#fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    background: #ccc;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-box button i {
+    color: #333;
+}
+
+.footer h5 {
+    color:#fff;
+    padding-top: 20px;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.map-responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.relleno p {
+    text-align: left;
+}
+
+.relleno h2 {
+    font-family: sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
+    padding-top: 20px;
+}
+
+.container-celu {
+    display: none;
+}
+.container-compu {
+    display: none;
+}
+@media (min-width: 768px) {
+.container-compu {
+    display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-celu {
+    display: block;
+    }
+}

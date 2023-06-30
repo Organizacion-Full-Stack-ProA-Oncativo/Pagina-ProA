@@ -9,6 +9,6 @@ Tambien esta la parte en la que los profesores y alumnos sepan los horarios y qu
 
 Y muchas mas cosas que podran encontrar en la pagina.
 
-Gracias por darnos esta oportunidad de serguir aprendiendo.
+Gracias por darnos esta oportunidad de seguir aprendiendo.
 
 Para saber como instalar la pagina "link:   "

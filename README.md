@@ -13,4 +13,5 @@ Gracias por darnos esta oportunidad de seguir aprendiendo.
 
 Para saber como instalar la pagina: "https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing](https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing)https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing"
 
+ATENCION
 No pudimos terminar de subir el BackEnd y el FrontEnd debido a que pesan demasiado y el github permite hasta maximo 25Mb, aun con los archivos comprimidos no deja.

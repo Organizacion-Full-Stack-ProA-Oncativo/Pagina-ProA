@@ -11,4 +11,4 @@ Y muchas mas cosas que podran encontrar en la pagina.
 
 Gracias por darnos esta oportunidad de seguir aprendiendo.
 
-Para saber como instalar la pagina "https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing"
+Para saber como instalar la pagina "https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing](https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing)https://docs.google.com/document/d/1GL1eqI6I7luOlKM67wJwewAkPgHMySG2gbKDOdvepjg/edit?usp=sharing"

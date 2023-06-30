@@ -1,0 +1,59 @@
+<div class="container">
+  <h2><img src="assets/profesores.svg" class="iconito" alt="" width="50px"
+    style="margin: 10px 10px;"> Alumnos</h2>
+    <div class="row mt-5">
+      <div class="col-md-2">
+        <label for="txtId" class="from-label">ID</label>
+        <input type="text" name="id" id="txtId" class="form-control" [(ngModel)]="estudiante.id" disabled="true">
+      </div>
+      <div class="col-md-4">
+        <label for="txtNombre" class="from-label">Nombre</label>
+        <input type="text" name="id" id="txtNombre" class="form-control" [(ngModel)]="estudiante.nombre">
+      </div>
+      <div class="col-md-2">
+        <label for="txtEdad" class="from-label">Apellido</label>
+        <input type="text" name="id" id="txtEdad" class="form-control" [(ngModel)]="estudiante.apellido">
+      </div>
+      <div class="col-md-4">
+        <label for="txtDesc" class="from-label">Correo Electronico</label>
+        <input type="text" name="id" id="txtDesc" class="form-control" [(ngModel)]="estudiante.correo_electronico">
+      </div>
+      <div class="col-md-4">
+        <label for="txtDesc" class="from-label">Numero Telefono</label>
+        <input type="text" name="id" id="txtDesc" class="form-control" [(ngModel)]="estudiante.numero_telefono">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <button class="btn btn-success" type="button" (click)="onAddEstudiante(estudiante)">Agregar</button>
+        <button class="btn btn-warning m-2" type="button" (click)="onUpdateEstudiante(estudiante)">Modificar</button>
+        <button class="btn btn-danger" type="button" (click)="onDeleteEstudiante(estudiante.id)">Eliminar</button>
+        <button class="btn btn-primary m-2" type="button" (click)="clear()">Limpiar</button>
+      </div>
+      
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <table id="dtEstudiante" class="table table-striped" style="width: 100%;">
+          <thead>
+            <tr>
+              <th>Seleccionar</th>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>Correo Electronico</th>
+              <th>Numero Telefono</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of datatable">
+              <td><input type="button" value="Seleccionar" (click)="onSetData(item)"></td>
+              <td>{{ item.nombre }}</td>
+              <td>{{ item.apellido }}</td>
+              <td>{{ item.correo_electronico }}</td>
+              <td>{{ item.numero_telefono }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>

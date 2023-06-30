@@ -1,0 +1,56 @@
+<div class="container formularioPre">
+    <h2 style="margin-top: 10px;"><img src="assets/preinsc.svg" class="iconito" alt="" width="50px" style="margin: 0 10px;"> Pre Inscripciones</h2>
+    <div class="row align-items-start">
+      <div class="col">
+        <form id="Formulario">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre del estudiante:</label>
+          <input class="form-control" name="Nombre Estudiante" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Apellido del estudiante:</label>
+          <input class="form-control" name="Apellido Estudiante" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">DNI:</label>
+          <input class="form-control" name="DNI Estudiante" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="Colegio" class="form-label">Colegio del que proviene:</label>
+          <br>
+          <input class="form-check-input" type="radio" value="publico" id="publico" name="Colegio" required>
+          <label class="form-check-label" for="publico">Público</label>
+          <br>
+          <input class="form-check-input" type="radio" value="privado" id="privado" name="Colegio" required >
+          <label class="form-check-label" for="privado">Privado</label>
+          <br>
+          <input class="form-check-input" type="radio" value="campo" id="campo" name="Colegio" required>
+          <label class="form-check-label" for="campo">Campo</label>
+        </div>
+        <div class="mb-3">
+          <label for="Hermanos en el colegio" class="form-label">¿Tiene hermanos dentro del colegio?</label>
+          <br>
+          <input class="form-check-input" type="radio" value="si" id="si" name="Hermanos en el colegio" required>
+          <label class="form-check-label" for="si">Sí</label>
+          <br>
+          <input class="form-check-input" type="radio" value="no" id="no" name="Hermanos en el colegio" required>
+          <label class="form-check-label" for="no">No</label>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre del tutor:</label>
+          <input class="form-control" name="Nombre del Tutor" id="exampleFormControlInput1" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Numero de contacto:</label>
+          <input name="Numero de contacto" class="form-control" id="exampleFormControlInput1" required>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Este formulario no es la inscripción. El mismo es para la base de datos de los aspirantes al ciclo 2024. (La fecha y modalidad de pre-inscripción formal estará dada por el Ministerio de Educación y será avisada por diversos medios)  
+          El cupo por curso es de 25 estudiantes. En caso de superar ese número, se realiza sorteo presencial entre los pre-inscriptos.
+        </div>
+        <button style="margin-right: 10px;" class="btn btn-primary" disabled>Mandar Inscripcion</button>
+        <a routingLink="/"><button class="btn btn-primary">Volver</button></a>
+      </form>
+    </div>
+  </div>
+</div>

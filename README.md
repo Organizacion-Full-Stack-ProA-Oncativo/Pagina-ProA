@@ -3,7 +3,7 @@
 
 En el repositorio esta dividida en Backend y Frontend que son la parte de programacion, tambien en la carpeta "Documentacion" esta toda la informacion y imagenes que estan dentro de la pagina. 
 
-La pagina intenta tener toda la informacion para que todos los padres que esten interesados en inscribir sus hijos, esten lo majormente informados.
+La pagina intenta tener toda la informacion para que todos los padres que esten interesados en inscribir sus hijos, esten lo mejormente informados.
 
 Tambien esta la parte en la que los profesores y alumnos sepan los horarios y que materias tendran o daran durante el dia. 
 
